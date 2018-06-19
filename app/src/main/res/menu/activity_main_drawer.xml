@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:override="true">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:title="@string/college"
+            android:id="@+id/college"
+            android:icon="@drawable/secondcollege"
+          />
+
+
+        <item
+
+            android:title=""
+            android:id="@+id/admission_spinner"
+            android:icon="@drawable/college"
+            app:actionLayout="@layout/spinner" />
+
+        <item
+            android:title=""
+            android:id="@+id/spinner"
+            android:icon="@drawable/places"
+            app:actionLayout="@layout/spinner"/>
+
+    </group>
+
+
+
+    <group>
+
+        <menu>
+            <item
+                android:id="@+id/academic_calender"
+                android:icon="@drawable/calendar"
+                android:title="@string/academic_calender" />
+            <item
+                android:id="@+id/time_table"
+                android:icon="@drawable/timetable"
+                android:title="@string/time_table" />
+
+            <item
+                android:id="@+id/Our_Achievement"
+                android:icon="@drawable/achievement"
+                android:title="@string/our_achievement" />
+            <item
+
+                android:id="@+id/Our_History"
+                android:icon="@drawable/history"
+                android:title="@string/our_history" />
+
+
+        </menu>
+
+
+</group>
+
+
+    <!--<group>-->
+        <!--<menu>-->
+          <!---->
+        <!--</menu>-->
+
+    <!--</group>-->
+
+
+
+    <!--<include-->
+        <!--layout="@layout/newlayer"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/telecom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ViewFlipper
+                android:id="@+id/e_library_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@android:color/white"
+                        android:text="I am very happy here so are you"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@android:color/white"
+                        android:text="ViewFlipper is a very good thing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@android:color/white"
+                        android:text="I am very happy here so are you"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+            </ViewFlipper>
+
+
+            <TextView
+                android:id="@+id/checking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is getting annoying" />
+
+            <EditText
+                android:id="@+id/InputMatric"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle" />
+
+            <Button
+                android:text="Fetch"
+                android:textSize="15dp"
+                android:id="@+id/clickButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+
+    </LinearLayout>

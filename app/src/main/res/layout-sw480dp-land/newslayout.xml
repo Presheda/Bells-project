@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/newsEmptyView"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="Get to know what's happeneing in Bells"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textSize="20sp"
+            android:text="Load"
+            android:textColor="@android:color/white"
+            android:background="@drawable/mediumlinearlayoutstyle"
+            android:id="@+id/new_fetch_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <ListView
+
+        android:dividerHeight="1.5dp"
+        android:divider="@android:color/white"
+        android:padding="17dp"
+        android:paddingLeft="12dp"
+        android:id="@+id/news_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+</LinearLayout>

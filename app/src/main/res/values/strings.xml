@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">The New Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="MPH">Multipurpose Hall</string>
+
+    <string name="ELT">Edozien Lecture Theater</string>
+
+    <string name="library">Library</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="our_history">Our History</string>
+    <string name="our_achievement">Our Achievement</string>
+    <string name="about_bells">About Bells</string>
+    <string name="calender_amp_time_table"><![CDATA[Calender & Time Table]]></string>
+    <string name="academic_calender">Academic Calender</string>
+    <string name="time_table">Time Table</string>
+    <string name="admission">Admission</string>
+    <string name="progressDialogMessage">Loading, please wait</string>
+    <string name="college">College</string>
+
+
+    <string name="article_text">
+        <b>What is Lorem Ipsum?</b>
+        \n\n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+        \n\n
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+        </string>
+
+
+    <string name="college_info">
+        <b>What is Lorem Ipsum?</b>
+        \n\n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        \n\n
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+        \n\n
+              <b>What is Lorem Ipsum?</b>
+        \n\n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        \n\n
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+        \n\n
+
+              <b>What is Lorem Ipsum?</b>
+        \n\n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        \n\n
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+
+        </string>
+    
+    <string name="college_detail_colnas">
+        <b> College Of Natural And Applied Science </b>
+
+        \n\n
+        The College of Natural and Applied Sciences houses three Major academic departments namely,
+        Biological Sciences
+
+        \n\n
+
+        (BIOSC), Chemical,
+
+        Food and Nutrition (CFNSC) and Computer Science
+        and Information Technology(CSCIT).
+
+    </string>
+
+
+    <string name="college_detail_coleng">
+
+        <b>College of Engineering</b>
+
+        \n\n
+
+        The College of Engineering houses two Major academic departments namely,
+        Mechanical and Biomedical Engineering
+        \n\n
+
+        and Electrical Electronics
+
+
+        and Computer Engineering Departments.
+
+
+    </string>
+
+
+    <string name="college_detail_colmans">
+        <b>   College Of Management Sciences     </b>
+
+        \n\n
+
+        The College of Management Sciences houses three Major academic departments namely,
+        Economics,
+        \n\n
+        Accounting and
+        Finance (EAFNB), Business Administration (BUSAD) and Management Technology(MGTCH).
+
+    </string>
+
+    <string name="college_detail_colenvs">
+
+        <b>College Of Environmental Science</b>
+        \n\n
+
+        The College of Environmental Sciences houses seven Major academic departments namely,
+
+        Civil and Environmental Engineering, Architecture,
+        \n\n
+        Building Engineering, Estate Management,
+
+        Surveying and GeoInformatics, Quantity Surveying and Urban and Regional Planning Departments.
+
+    </string>
+    <string name="fetch">Fetch</string>
+    <string name="buttonNext">Next</string>
+    <string name="buttonPrevious">Previous</string>
+
+
+</resources>

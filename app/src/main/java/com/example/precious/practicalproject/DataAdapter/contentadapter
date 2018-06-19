@@ -1,0 +1,74 @@
+package com.example.precious.practicalproject.DataAdapter;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.example.precious.practicalproject.DataHolder.ContentHolder;
+import com.example.precious.practicalproject.R;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Precious on 1/16/2018.
+ */
+
+public class ContentAdapter extends ArrayAdapter<ContentHolder> {
+
+    private boolean[] checkBoxState = null;
+
+    public ContentAdapter(Activity context, ArrayList<ContentHolder> resource) {
+        super(context, 0,  resource);
+    }
+
+
+
+
+
+    @NonNull
+    @Override
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        View listview = convertView;
+
+
+
+
+        if(listview ==  null){
+
+            listview = LayoutInflater.from(getContext()).inflate(R.layout.populatedownload, parent,
+                    false);
+
+        }
+
+
+        final ContentHolder currentOne = getItem(position);
+
+        TextView course_title =  (TextView) listview.findViewById(R.id.course_title);
+        course_title.setText(currentOne.getCourse_title());
+        course_title.setTextColor(Color.WHITE);
+
+        TextView course_code = (TextView) listview.findViewById(R.id.course_code);
+        course_code.setText(currentOne.getCourse_code());
+        course_code.setTextColor(Color.WHITE);
+
+
+        return listview;
+    }
+
+    private class ViewHolder
+    {
+        ImageView photo;
+        TextView name,team;
+        CheckBox checkBox;
+    }
+
+}
